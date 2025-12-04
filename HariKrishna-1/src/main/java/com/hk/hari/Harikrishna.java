@@ -12,5 +12,9 @@ public class Harikrishna
 	public String wish() {
 		return "hello boss how are you";
 	}
+	@GetMapping("/greet")
+	public String greet() {
+		return "hello boss good morning";
+	}
 
 }
